@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, arial, helvetica, sans-serif;
+    font-size: 12px;
+    background: #f4f4f4;
+}
+
+.fundo-azul{
+    background: #28A5d9;
+}
+
+#principal{
+    width: auto;
+    height: auto;
+}
+
+#cabecalho{
+    width: auto;
+    height: 100px;
+    background: url(../imagens/fundo-menu.png);
+}
+
+#cabecalho-superior{
+    width: 100%;
+}
+
+#menu-cima{
+    width: 960px;
+    height: 20px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+#manu-cima ul{
+    width: 300px;
+    float: right;
+    text-align: right;
+    margin-right: 20px;
+}
+
+#menu-cima ul li{
+    display: inline;
+    margin-left: 10px;
+}
+
+#menu-cima ul li a{
+    color: #ccc;
+    text-decoration: none;
+}
+
+#menu-cima ul li a:hover{
+    color: red;
+
+}
+
+
+#cabecalho-meio{
+    width: 100%;
+    height: 110px;
+}
+
+#cabecalho-meio h1{
+    text-align: -9999px;
+    width: 175px;
+    height: 52px;
+    background: url(../imagens/img-logo.png) no-repeat top right;
+}
