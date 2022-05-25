@@ -37,11 +37,13 @@
     <div id="lado-direito">
         <section class="vitrine">
             <div id="cx-img-produto">
-                <img src="imagens/css-g.png" alt="">
+                <a href="">
+                    <img src="imagens/css-g.png" alt="">
+                </a>
             </div>
 
             <div class="" id="cx-titulo-produto">
-                titulo
+               <h1><a href="#">Titulo</a></h1>
             </div>
 
             <div class="" id="cx-preco-produto">
@@ -49,19 +51,40 @@
             </div>
 
             <div class="duracao-autor">
-
+                <h3><span>Duração:</span> <strong> 12 horas</strong></h3>
             </div>
 
             <div class="duracao-autor">
-
+                <h4><span>Autor:</span> <strong>Matheus Brandao</strong></h4>
             </div>
 
             <div id="descricao-rapida">
-                descricão rapida
+                <h2>Descricão rapida</h2>
             </div>
 
             <div id="comprar-produto">
-                comprar
+                <form action="" method="post">
+                    <input type="submit" value="">
+                </form>
             </div>
+
+            <section id="abas-geral">
+                <ul class="menu">
+                    <li><a href="#aba01">Descrição</a></li>
+                    <li><a href="#aba02">Conteudo</a></li>
+                </ul>
+                <section id="box">
+                    <div id="aba01" class="conteudo">
+                    <article id="descricao">
+
+                        <h5>Descrição</h5>
+
+                    <p>A logica de programação é com certeza a parte mais importante para quem deseja aprender programar e o nosso curso foi desenvolvido para pessoas que não tem nenhum conhecimento em programação</p>
+                    </article>
+                    </div>
+
+                </section>
+            </section>
+
         </section>
     </div>
