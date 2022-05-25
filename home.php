@@ -33,4 +33,77 @@
             </ul>
         </nav>
     </section>
+
+    <div id="lado-direito">
+        <h3 class="titulo fundo-azul">lista de produtos</h3>
+        <section class="vitrine">
+            <h2>Categoria do protudo</h2>
+            <ul>
+                <li>
+                    <a href="#">
+                        <figure>
+                            <img src="imagens/firebird_peq.png" alt="">
+                            <figcaption>Curso completo Firebird</figcaption>
+                        </figure>
+                        <span> R$ 37,90</span>
+                        <form action="" method="post">
+                        <input type="submit" value="">
+                        </form>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <figure>
+                            <img src="imagens/firebird_peq.png" alt="">
+                            <figcaption>Curso completo Firebird</figcaption>
+                        </figure>
+                        <span> R$ 37,90</span>
+                        <form action="" method="post">
+                            <input type="submit" value="">
+                        </form>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <figure>
+                            <img src="imagens/firebird_peq.png" alt="">
+                            <figcaption>Curso completo Firebird</figcaption>
+                        </figure>
+                        <span> R$ 37,90</span>
+                        <form action="" method="post">
+                        <input type="submit" value="">
+                        </form>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <figure>
+                            <img src="imagens/firebird_peq.png" alt="">
+                            <figcaption>Curso completo Firebird</figcaption>
+                        </figure>
+                        <span> R$ 37,90</span>
+                        <form action="" method="post">
+                        <input type="submit" value="">
+                        </form>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <figure>
+                            <img src="imagens/firebird_peq.png" alt="">
+                            <figcaption>Curso completo Firebird</figcaption>
+                        </figure>
+                        <span> R$ 37,90</span>
+                        <form action="" method="post">
+                        <input type="submit" value="">
+                        </form>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </div>
 </div>

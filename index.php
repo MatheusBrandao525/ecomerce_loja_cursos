@@ -14,11 +14,11 @@
         </section><!--Fin cabecalho-->
 
         <section id="corpo">
-            <?php include_once("home.php");?>
+            <?php include_once("detalhes.php");?>
         </section><!--FIm corpo-->
 
         <footer id="rodape">
-
+            <?php include_once("rodape.php");?>
         </footer><!--Fim rodapé-->
     </main>
 </body>
