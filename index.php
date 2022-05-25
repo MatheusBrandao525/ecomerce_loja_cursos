@@ -14,7 +14,7 @@
         </section><!--Fin cabecalho-->
 
         <section id="corpo">
-
+            <?php include_once("home.php");?>
         </section><!--FIm corpo-->
 
         <footer id="rodape">

@@ -14,6 +14,10 @@ body{
     background: #28A5d9;
 }
 
+.fundo-principal{
+    background: url(../imagens/fundo-menu.png);
+}
+
 #principal{
     width: auto;
     height: auto;
@@ -21,7 +25,7 @@ body{
 
 #cabecalho{
     width: auto;
-    height: 100px;
+    height: 160px;
     background: url(../imagens/fundo-menu.png);
 }
 
@@ -34,9 +38,10 @@ body{
     height: 20px;
     background: #fff;
     margin: 0 auto;
+
 }
 
-#manu-cima ul{
+#menu-cima ul{
     width: 300px;
     float: right;
     text-align: right;
@@ -62,11 +67,148 @@ body{
 #cabecalho-meio{
     width: 100%;
     height: 110px;
+    position: relative;
 }
 
 #cabecalho-meio h1{
-    text-align: -9999px;
+    text-indent: -9999px;
     width: 175px;
+    position: absolute;
+    top: 25px;
+    left: 60px;
     height: 52px;
     background: url(../imagens/img-logo.png) no-repeat top right;
+}
+
+.sacola{
+    background: url(../imagens/carrinho.png) no-repeat top right;
+    width: 300px;
+    font-size: 10px;
+    position: absolute;
+    top: 10px;
+    right: 200px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.busca{
+    position: absolute;
+    width: 500px;
+    height: 35px;
+    text-align: right;
+    top: 55px;
+    left: 340px;
+}
+
+.busca input[type=search]{
+    width: 400px;
+}
+
+#cabecalho-inferior{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    line-height: 22px;
+}
+
+#menu-principal{
+    width: 960px;
+    height: 30px;
+    padding-top: 5px;
+    margin: 0 auto;
+    text-align:center;
+}
+
+#menu-principal ul{
+    list-style: none;
+    font-family: "Trebuchet MS";
+}
+
+#menu-principal ul li{
+    display: inline;
+    margin-left: 5px;
+    padding: 5px 30px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.linha-vertical{
+    border-right: 1px solid #ccc;
+}
+
+#menu-principal ul li a{
+    color: #333;
+    text-decoration: none;
+}
+
+#menu-principal ul li a:hover{
+    color: red;
+}
+
+.banner{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    background: #fff;
+}
+
+#corpo{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    background: #fff;
+    margin-top: 10px;
+}
+
+.categorias{
+    width: 219px;
+    height: auto;
+    float: left;
+    margin-right: 8px;
+    border: solid 1px #ccc;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.categorias h2{
+    width: 219px;
+    height: 19px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.categorias ul{
+    width: 219px;
+    list-style: none;
+}
+
+.categorias ul li a{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.categorias ul li a:hover{
+    color: #666;
+}
+
+.categorias ul ul{
+    width: 100%;
+    background: #fff;
+}
+
+.categorias ul ul li{
+    border-bottom: solid 1px #ccc;
+    padding: 10px 0 10px 15px;
+}
+
+.categorias ul ul li a{
+    color: #666;
+    font-size: 12px;
+}
+
+.categorias ul ul li a:hover{
+    color: #00ccff;
+    font-size: 14px;
 }
