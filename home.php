@@ -40,7 +40,7 @@
             <h2>Categoria do protudo</h2>
             <ul>
                 <li>
-                    <a href="#">
+                    <a href="detalhes.php">
                         <figure>
                             <img src="imagens/firebird_peq.png" alt="">
                             <figcaption>Curso completo Firebird</figcaption>

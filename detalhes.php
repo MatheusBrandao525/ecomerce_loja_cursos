@@ -41,19 +41,17 @@
                     <img src="imagens/css-g.png" alt="">
                 </a>
             </div>
-
+   
             <div class="" id="cx-titulo-produto">
                <h1><a href="#">Titulo</a></h1>
             </div>
-
             <div class="" id="cx-preco-produto">
-                preco
+                <span>Valor:</span> <strong>R$ 37,90</strong>
             </div>
 
             <div class="duracao-autor">
                 <h3><span>Duração:</span> <strong> 12 horas</strong></h3>
             </div>
-
             <div class="duracao-autor">
                 <h4><span>Autor:</span> <strong>Matheus Brandao</strong></h4>
             </div>
@@ -61,7 +59,7 @@
             <div id="descricao-rapida">
                 <h2>Descricão rapida</h2>
             </div>
-
+            <div class="limpa"></div>
             <div id="comprar-produto">
                 <form action="" method="post">
                     <input type="submit" value="">
@@ -84,7 +82,20 @@
                     </div>
 
                 </section>
+
+                <section id="box">
+                    <div id="aba02" class="conteudo">
+                    <article id="descricao">
+
+                        <h5>Conteudo</h5>
+
+                    <p>nte para quem deseja aprender programar e o nosso curso foi desenvolvido para pessoas que não tem nenhum conhecimento em programação</p>
+                    </article>
+                    </div>
+
+                </section>
             </section>
 
         </section>
     </div>
+

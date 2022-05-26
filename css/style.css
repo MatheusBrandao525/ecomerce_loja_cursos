@@ -151,6 +151,10 @@ body{
     background: #fff;
 }
 
+.banner img{
+    width: 960px;
+}
+
 #corpo{
     width: 960px;
     height: auto;
@@ -214,8 +218,8 @@ body{
 }
 
 .titulo{
-    width: 710px;
-    height: 19px;
+    width: 734px;
+    height: auto;
     padding: 10px;
     margin-bottom: 10px;
     color: #fff;
@@ -228,32 +232,31 @@ body{
     float: left;
 }
 
-
 .vitrine{
     margin: 10px 0;
     padding: 10px;
-    width: 698px;
+    width: 734px;
     height: auto;
     float: left;
     border: solid 1px #ccc;
 }
 
 .vitrine h2, .vitrine ul{
-    width: 691px;
-
+    width: 710px;
     border: solid 1px #ccc;
     padding: 2px;
     background: #FBFBFB;
 }
 
 .vitrine ul{
+    padding: 0 15px;
     height: auto;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .vitrine h2{
-    height: 20px;
+    height: auto;
 }
 
 
@@ -312,22 +315,24 @@ body{
 }
 
 #cx-img-produto{
-    width: 310px;
-    height: 385px;
+    width: 325px;
+    height: 372px;
     border: solid 1px #ccc;
     padding: 1px;
     background: #fff;
     margin-right: 10px;
     float: left;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.80rem;
 }
 
 #cx-img-produto img{
     border: 0;
-    
 }
 
 #cx-titulo-produto{
-    width: 370px;
+    width: 375px;
     height: 110px;
     float: left;
     border: solid 1px #ccc;
@@ -348,7 +353,7 @@ body{
 }
 
 #cx-preco-produto{
-    width: 370px;
+    width: 375px;
     height: 50px;
     float: left;
     border: solid 1px #ccc;
@@ -369,24 +374,25 @@ body{
 }
 
 .duracao-autor{
-    width: 185px;
+    width: 187px;
     height: 33px;
     border: solid 1px #ccc;
     float: left;
     margin-top: 10px;
     background: #fff;
-    font-size: 14px;
-    padding-top: 10px;
+    font-size: 12px;
+    padding-top: 5px;
 }
 
 .duracao-autor h3{
     height: 60px;
-    font-size: 14px;
+    font-size: 12px;
     background: url(../imagens/clok.png) no-repeat top left;
 }
 
 .duracao-autor span{
     margin-left: 25px;
+    font-size: 15px;
 }
 
 .duracao-autor h4{
@@ -396,7 +402,7 @@ body{
 }
 
 #descricao-rapida{
-    width: 370px;
+    width: 375px;
     height: 149px;
     border: solid 1px #ccc;
     float: left;
@@ -407,12 +413,13 @@ body{
 }
 
 #descricao-rapida h2{
-    width: 364px;
+    width: 374px;
     color: #333;
+    height: auto;
 }
 
 #comprar-produto{
-    width: 690px;
+    width: 710px;
     height: 45px;
     border: solid 1px #ccc;
     margin-top: 10px;
@@ -430,7 +437,7 @@ body{
 }
 
 #abas-geral{
-    width: 680px;
+    width: 710px;
     margin: 10px auto;
 }
 
@@ -472,7 +479,7 @@ ul.menu li a:hover{
     background: #66ccff;
 }
 
-ul.menu li.active, ul.menu li.active a:hover{
+ul.menu li.active , ul.menu li.active a:hover{
     background: #fff;
     border-bottom: 1px solid #fff;
 }
@@ -483,7 +490,7 @@ ul.menu li.active, ul.menu li.active a:hover{
     border-top: 5px;
     float: left;
     clear: both;
-    width: 680px;
+    width: 710px;
     background: #fff;
     padding-left: 4px;
     padding-right: 7px;
