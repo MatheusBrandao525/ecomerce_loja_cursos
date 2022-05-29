@@ -1,10 +1,9 @@
 <?php
-    include_once "conexaoMySQL.php";
+    include_once "classes/conexaoMySQL.php";
 
     $con = new conexaoMySQL();
 
-    $con->conectar();
-
+    $qry = $con->executarSQL("select * from pessoa");
     echo "conexao realizada com sucesso";
 
 
